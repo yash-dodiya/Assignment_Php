@@ -33,59 +33,59 @@
                         include_once("views/footer.php");
                     break;
 
-                    // case '/shop':
-                    //     include_once("views/header.php");
-                    //     include_once("views/shop.php");
-                    //     include_once("views/footer.php");
-                    // break;
+                    case '/shop':
+                        include_once("views/header.php");
+                        include_once("views/shop.php");
+                        include_once("views/footer.php");
+                    break;
 
-                    // case '/wishlist':
-                    //     include_once("views/header.php");
-                    //     include_once("views/wishlist.php");
-                    //     include_once("views/footer.php");
-                    // break;
+                    case '/wishlist':
+                        include_once("views/header.php");
+                        include_once("views/wishlist.php");
+                        include_once("views/footer.php");
+                    break;
                     
-                    // case '/single_product':
-                    //     include_once("views/header.php");
-                    //     include_once("views/single_product.php");
-                    //     include_once("views/footer.php");
-                    // break;
+                    case '/single_product':
+                        include_once("views/header.php");
+                        include_once("views/single_product.php");
+                        include_once("views/footer.php");
+                    break;
 
-                    // case '/about':
-                    //     include_once("views/header.php");
-                    //     include_once("views/about.php");
-                    //     include_once("views/footer.php");
-                    // break;
+                    case '/about':
+                        include_once("views/header.php");
+                        include_once("views/about.php");
+                        include_once("views/footer.php");
+                    break;
 
-                    // case '/blog':
-                    //     include_once("views/header.php");
-                    //     include_once("views/blog.php");
-                    //     include_once("views/footer.php");
-                    // break;
+                    case '/blog':
+                        include_once("views/header.php");
+                        include_once("views/blog.php");
+                        include_once("views/footer.php");
+                    break;
 
-                    // case '/blog_single':
-                    //     include_once("views/header.php");
-                    //     include_once("views/blog_single.php");
-                    //     include_once("views/footer.php");
-                    // break;
+                    case '/blog_single':
+                        include_once("views/header.php");
+                        include_once("views/blog_single.php");
+                        include_once("views/footer.php");
+                    break;
 
-                    // case '/contact':
-                    //     include_once("views/header.php");
-                    //     include_once("views/contact.php");
-                    //     include_once("views/footer.php");
-                    // break;
+                    case '/contact':
+                        include_once("views/header.php");
+                        include_once("views/contact.php");
+                        include_once("views/footer.php");
+                    break;
 
-                    // case '/cart':
-                    //     include_once("views/header.php");
-                    //     include_once("views/cart.php");
-                    //     include_once("views/footer.php");
-                    // break;
+                    case '/cart':
+                        include_once("views/header.php");
+                        include_once("views/cart.php");
+                        include_once("views/footer.php");
+                    break;
 
-                    // case '/checkout':
-                    //     include_once("views/header.php");
-                    //     include_once("views/checkout.php");
-                    //     include_once("views/footer.php");
-                    // break;
+                    case '/checkout':
+                        include_once("views/header.php");
+                        include_once("views/checkout.php");
+                        include_once("views/footer.php");
+                    break;
 
                     // case '/register':
                     //     include_once("views/header.php");
