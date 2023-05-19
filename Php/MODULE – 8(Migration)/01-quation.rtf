@@ -1,0 +1,43 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil Calibri;}}
+{\colortbl ;\red255\green0\blue0;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\fi720\li1440\sa160\sl259\slmult0\qj\f0\fs32\lang9 MODULE \f1\endash\f0  8(Migration)\par
+
+\pard\sa160\sl259\slmult0\qj\par
+\ul\b\fs36 Q-1:-How to do config database in laravel?\par
+\ulnone\b0\fs22\par
+\fs24 Laravel makes connecting with databases and running queries extremely simple. The database configuration file is app/config/database.php. In this file you may define all of your database connections, as well as specify which connection should be used by default. Examples for all of the supported database systems are provided in this file.Currently Laravel supports four database systems: MySQL, Postgres, SQLite, and SQL Server.\par
+
+\pard\sa160\sl259\slmult0\fs22\par
+\b\fs28 # Running Queries\par
+\b0\fs22 Running A Select Query\par
+$results = DB::select('select * from users where id = ?', array(1));\par
+\par
+Running An Insert Statement\par
+DB::insert('insert into users (id, name) values (?, ?)', array(1, 'Dayle'));\par
+\par
+Running An Update Statement\par
+DB::update('update users set votes = 100 where name = ?', array('John'));\par
+\par
+Running A Delete Statement\par
+DB::delete('delete from users');\par
+\par
+Running A General Statement\par
+DB::statement('drop table users');\par
+\par
+\par
+\cf1 CREATE DATABASE db_name;\par
+\cf0\par
+.env\par
+DB_CONNECTION=mysql\par
+DB_HOST=127.0.0.1\par
+DB_PORT=3306\par
+DB_DATABASE=test\par
+DB_USERNAME=root\par
+DB_PASSWORD=\par
+\cf1\par
+database/migrations\par
+php artisan migrate\par
+
+\pard\sa200\sl276\slmult1\cf0\par
+}
